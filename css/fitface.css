@@ -1,0 +1,111 @@
+.face{
+    min-height: 300px;
+    object-fit: contain; /* この一行を追加するだけでOK! */
+    object-position: 0% 100%;
+}
+
+/* タブレット縦長 */
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .face{
+        min-height: 10px;
+        object-fit: contain; /* この一行を追加するだけでOK! */
+        object-position: 0% 100%;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .face{
+        min-height: 10px;
+        object-fit: contain; /* この一行を追加するだけでOK! */
+        object-position: 0% 100%;
+    }
+}
+
+/* スマホ */
+@media screen and (min-width:480px) { 
+    .cardfit{
+        min-width: 10%;
+    }
+
+}
+
+
+.kome{
+    background-color: rgb(241, 255, 203);
+    transition: 0.5s;
+}
+
+.kome:hover{
+    background-color: rgb(224, 255, 141);
+    transition: 0.5s;
+}
+
+.samutyo{
+    background-color: rgb(245, 234, 231);
+    transition: 0.5s;
+}
+
+.samutyo:hover{
+    background-color: rgb(231, 202, 193);
+    transition: 0.5s;
+}
+
+.meiko{
+    background-color: rgb(248, 248, 248);
+    transition: 0.5s;
+}
+
+.meiko:hover{
+    background-color: rgb(208, 208, 208);
+    transition: 0.5s;
+}
+
+.sena{
+    background-color: rgb(255, 245, 245);
+    transition: 0.5s;
+}
+
+.sena:hover{
+    background-color: rgb(255, 223, 223);
+    transition: 0.5s;
+}
+
+.nekokatu{
+    background-color: rgb(255, 201, 146);
+    transition: 0.5s;
+}
+
+.nekokatu:hover{
+    background-color: rgb(255, 177, 99);
+    transition: 0.5s;
+}
+
+.kumori{
+    background-color: rgb(250, 250, 250);
+    transition: 0.5s;
+}
+
+.kumori:hover{
+    background-color: rgb(243, 243, 243);
+    transition: 0.5s;
+}
+
+.nate{
+    background-color: rgb(213, 221, 235);
+    transition: 0.5s;
+}
+
+.nate:hover{
+    background-color: rgb(178, 189, 209);
+    transition: 0.5s;
+}
+
+.suna{
+    background-color: rgb(255, 246, 208);
+    transition: 0.5s;
+}
+
+.suna:hover{
+    background-color: rgb(255, 239, 166);
+    transition: 0.5s;
+}

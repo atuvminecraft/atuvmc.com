@@ -1,0 +1,16 @@
+.nocopy:active{
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-touch-callout:none;
+    -moz-user-select:none;
+    user-select:none;
+    pointer-events: none;
+}
+
+.nocopytaskbar:active{
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-touch-callout:none;
+    -moz-user-select:none;
+    user-select:none;
+}
